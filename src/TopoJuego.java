@@ -30,8 +30,9 @@ public class TopoJuego extends JPanel {
     private int dificultadSelected;
     private HashMap<String, Integer> dificultades = new HashMap<>();
     private HashMap<String, Integer> tiempos = new HashMap<>();
+
     public TopoJuego(String dificultad) {
-        if(dificultad == null){
+        if (dificultad == null) {
             dificultad = "Fácil";
         }
         fillDificultades();
@@ -83,12 +84,14 @@ public class TopoJuego extends JPanel {
             }
         });
     }
-    private void fillDificultades(){
-        dificultades.put("Fácil", 5);
+
+    private void fillDificultades() {
+        dificultades.put("Fácil", 2);
         dificultades.put("Medio", 10);
         dificultades.put("Difícil", 20);
     }
-    private void fillTiempos(){
+
+    private void fillTiempos() {
         tiempos.put("Fácil", 30);
         tiempos.put("Medio", 20);
         tiempos.put("Difícil", 10);
@@ -185,9 +188,11 @@ public class TopoJuego extends JPanel {
 
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
+        Graphics2D g2 = (Graphics2D) g;
         g.drawImage(fondo, 0, 0, null);
         g.setColor(Color.BLACK);
         for (int[] hoyo : hoyos) {
+            g2.setPaint(new GradientPaint(hoyo[0], hoyo[1], Color.BLACK, hoyo[0] + 120, hoyo[1] + 80, Color.GRAY));
             g.fillOval(hoyo[0], hoyo[1], 120, 80);
         }
 
@@ -196,9 +201,9 @@ public class TopoJuego extends JPanel {
         }
 
         g.setColor(Color.WHITE);
-        g.setFont(new Font("Arial", Font.BOLD, 18));
+        g.setFont(new Font("Arial", Font.BOLD, 25));
         g.drawString("Golpes: " + golpesAcertados, 10, 20);
-        g.drawString("Tiempo: " + tiempoRestante, 10, 40);
+        g.drawString("Tiempo: " + tiempoRestante, 10, 50);
     }
 
     /*public static void main(String[] args) {
