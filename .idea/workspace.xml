@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8117af4d-9cd7-471c-974e-0f084993dced" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TopoJuego.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mazo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pasto.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/topo.png" afterDir="false" />
+    <list default="true" id="8117af4d-9cd7-471c-974e-0f084993dced" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/src/Welcome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/martillo.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TopoJuego.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopoJuego.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +39,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.TopoJuego.executor": "Run",
+    "Application.Welcome.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -80,11 +75,24 @@
       <updated>1728477950207</updated>
       <workItem from="1728477951269" duration="87000" />
       <workItem from="1728478054042" duration="56000" />
-      <workItem from="1728478326618" duration="9002000" />
+      <workItem from="1728478326618" duration="13295000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1728535080764</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728535080764</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
